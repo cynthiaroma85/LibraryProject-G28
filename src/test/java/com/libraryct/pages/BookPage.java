@@ -20,6 +20,8 @@ public class BookPage extends BasePage {
 
     private String loader = "//div[@class='modal-body']";
 
+
+
     public void searchBook(String name){
         driver.findElement(By.xpath(search)).sendKeys(name);
     }

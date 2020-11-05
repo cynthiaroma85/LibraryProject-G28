@@ -9,4 +9,3 @@ Feature: search books
     When user clicks on books tab
     And  user enters book "The little Prince"
     Then user verifies search result by name "The little Prince"
-
